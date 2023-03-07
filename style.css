@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: blue;
+  }
+  
+  h2 {
+    color: rebeccapurple;
+    text-align: center;
+  }
+  
+  table {
+    border: 2px solid darkorchid;
+    width: 650px;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+ td, th{
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+ }
+
+ tr:nth-child(even){
+    background-color: aliceblue;
+ }
+
+ tr:hover{
+    background-color:lightgreen;
+ }
+  
+  .code {
+    font-family: monospace;
+    background-color: beige;
+  }
